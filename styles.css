@@ -279,7 +279,9 @@ footer figure{
 
 
     /* footer section */
-
+    footer{
+        margin-top: 0;
+    }
     footer figure{
         flex-direction: column;
     }
