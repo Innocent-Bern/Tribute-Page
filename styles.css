@@ -86,6 +86,7 @@ img#image{
     flex-direction: column;
     overflow: hidden;
     aspect-ratio: 1 / 1.48;
+    transition: transform 1s;
 }
 .card:hover{
     transform: scale(1.1);
