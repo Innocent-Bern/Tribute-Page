@@ -242,6 +242,7 @@ footer figure{
     img#image{
         width: 100%;
         margin-bottom: 2%;
+        opacity: 0.5
     }
     #img-caption{
         font-size: 2vw;
