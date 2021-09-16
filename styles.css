@@ -262,7 +262,7 @@ footer figure{
         gap: 0 0;
     }
     .card{
-        margin-bottom: 25%;
+        margin-bottom: 20%;
     }
     .card:hover{
         transform: scale(1.05);
