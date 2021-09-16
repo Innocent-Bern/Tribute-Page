@@ -103,7 +103,7 @@ img#image{
 }
 
 .card-image{
-    opacity: 0.3;
+    opacity: 0.5;
     width: 100%;
     position: absolute;
     top: 0;
@@ -266,9 +266,6 @@ footer figure{
     }
     .card{
         margin-bottom: 5%;
-    }
-    .card-image{
-        opacity: 0.5;
     }
     p.content{
         font-size: 4vw;
