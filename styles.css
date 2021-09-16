@@ -265,6 +265,9 @@ footer figure{
     .card-big-text{
         font-size: 6vw;
     }
+    .card{
+        margin-bottom: 5%;
+    }
     p.content{
         font-size: 4vw;
     }
