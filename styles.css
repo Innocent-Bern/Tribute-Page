@@ -280,9 +280,6 @@ footer figure{
 
     /* footer section */
 
-    footer{
-        margin-top: 10%;
-    }
     footer figure{
         flex-direction: column;
     }
