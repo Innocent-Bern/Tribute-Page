@@ -74,7 +74,7 @@ img#image{
 #content{
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
-    grid-gap: 15vh 2%;
+    gap: 15vh 2%;
 }
 
 .card{
@@ -185,7 +185,7 @@ footer figure{
         display: grid;
         grid-template-columns: 40vw 40vw;
         justify-content: center;
-        grid-gap: 5% 7.5%;
+        gap: 5% 7.5%;
     }
     .card{
         width: 100%;
@@ -251,11 +251,13 @@ footer figure{
     /* main section */
     .tribute-header-text{
         font-size: 2.5vw;
+        margin-bottom: 10%
     }
 
     #content{
         display: grid;
         grid-template-columns: 90vw;
+        gap: 0 0;
     }
     .card:hover{
         transform: scale(1.05);
@@ -270,9 +272,7 @@ footer figure{
     p.content{
         font-size: 4vw;
     }
-    .card5{
-        margin-bottom: 50%;
-    }
+    
 
 
     /* footer section */
