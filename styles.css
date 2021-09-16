@@ -242,7 +242,6 @@ footer figure{
     img#image{
         width: 100%;
         margin-bottom: 2%;
-        opacity: 0.9;
     }
     #img-caption{
         font-size: 2vw;
@@ -267,6 +266,9 @@ footer figure{
     }
     .card{
         margin-bottom: 5%;
+    }
+    .card-image{
+        opacity: 0.5;
     }
     p.content{
         font-size: 4vw;
