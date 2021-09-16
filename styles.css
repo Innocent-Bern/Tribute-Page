@@ -79,7 +79,6 @@ img#image{
 
 .card{
     width: 25vw;
-    height: width * 1.48 ;
     box-shadow: 8px 15px 15px 0 rgba(255, 255, 255, 0.3);
     position: relative;
     display: flex;
@@ -249,9 +248,9 @@ footer figure{
     
 
     /* main section */
-    #tribute-info{
+/*     #tribute-info{
         margin-bottom: 0%;
-    }
+    } */
     .tribute-header-text{
         font-size: 2.5vw;
         margin-bottom: 10%
@@ -260,7 +259,10 @@ footer figure{
     #content{
         display: grid;
         grid-template-columns: 90vw;
-        gap: 1% 0;
+        gap: 0 0;
+    }
+    .card{
+        margin-bottom: 25%;
     }
     .card:hover{
         transform: scale(1.05);
