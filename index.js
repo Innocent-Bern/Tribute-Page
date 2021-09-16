@@ -11,7 +11,7 @@ cards.forEach(function(card, index){
 cards.forEach(function(card, index){
     card.addEventListener("mouseleave", function(event){
         document.querySelector(".paragraph"+index).style.opacity= 0;
-        document.querySelector(".image"+index).style.opacity= 0.3;
+        document.querySelector(".image"+index).style.opacity= 0.5;
     })
 })
 
@@ -27,7 +27,7 @@ cards.forEach(function(card, index){
 cards.forEach(function(card, index){
     card.addEventListener("touchend", function(touch){
         document.querySelector(".paragraph"+ index).style.opacity= 0;
-        document.querySelector(".image"+index).style.opacity= 0.3;
+        document.querySelector(".image"+index).style.opacity= 0.5;
         card.style.transform= "scale(1)";
     })
 })
