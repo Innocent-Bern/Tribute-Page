@@ -249,6 +249,9 @@ footer figure{
     
 
     /* main section */
+    #tribute-info{
+        margin-bottom: 20%;
+    }
     .tribute-header-text{
         font-size: 2.5vw;
         margin-bottom: 10%
